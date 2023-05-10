@@ -26,7 +26,7 @@
 					}
 				}
 			],
-			"_postman_id": "c1814cc7-0638-4ac9-872f-b513b068685b",
+			"id": "c1814cc7-0638-4ac9-872f-b513b068685b",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -51,7 +51,7 @@
 					}
 				}
 			],
-			"_postman_id": "ba8281c2-fd60-4867-8368-bb7813da6411",
+			"id": "ba8281c2-fd60-4867-8368-bb7813da6411",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -101,7 +101,7 @@
 					}
 				}
 			],
-			"_postman_id": "06f3af14-5f85-4bc1-bf75-274dcb33b7ec",
+			"id": "06f3af14-5f85-4bc1-bf75-274dcb33b7ec",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -124,6 +124,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
+				"id": "e27c813e-433e-4e77-8cde-05e18fb5f4cb",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -133,25 +134,27 @@
 		{
 			"listen": "test",
 			"script": {
+				"id": "90c9fb36-7c28-4297-9129-944e524659a9",
 				"type": "text/javascript",
 				"exec": [
-					""
+					"// changed for BB",
+					"// changed for GH",
+					"// chnaged for GL",
+					"// changed after made change"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "599754af-3f68-4341-b0b5-67e3bc720c6a",
+			"id": "1f09077a-ae1a-48ce-9616-f67ab9e0423d",
 			"key": "token",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "04078134-9fdf-4c23-b92e-7fd8f84d3733",
+			"id": "a2a2d1df-5e9d-477d-a6ec-e0133dcbe9dc",
 			"key": "baseUrl",
-			"value": "https://postman-integration-testing.glitch.me/",
-			"type": "string"
+			"value": "https://postman-integration-testing.glitch.me/"
 		}
 	]
 }
