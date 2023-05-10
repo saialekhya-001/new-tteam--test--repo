@@ -124,7 +124,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e27c813e-433e-4e77-8cde-05e18fb5f4cb",
+				"id": "cda407e4-11c3-4226-93f9-00fd7f00102f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -134,25 +134,25 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "90c9fb36-7c28-4297-9129-944e524659a9",
+				"id": "d5cf0791-5e94-48d0-b5ab-8ec6021ec75e",
 				"type": "text/javascript",
 				"exec": [
 					"// changed for BB",
 					"// changed for GH",
 					"// chnaged for GL",
-					"// changed after made change"
+					"// enabled auto-save after we made changed"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "1f09077a-ae1a-48ce-9616-f67ab9e0423d",
+			"id": "81d9e5ba-25a0-4eb3-ab77-2aa3579d93bb",
 			"key": "token",
 			"value": ""
 		},
 		{
-			"id": "a2a2d1df-5e9d-477d-a6ec-e0133dcbe9dc",
+			"id": "1f2f2f51-9dec-43e2-8f40-17147170a307",
 			"key": "baseUrl",
 			"value": "https://postman-integration-testing.glitch.me/"
 		}
